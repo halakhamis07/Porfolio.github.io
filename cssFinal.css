@@ -1,0 +1,298 @@
+body {
+  background-image: linear-gradient(rgb(153, 178, 231), rgb(82, 128, 226));
+
+  overflow-x: hidden;
+}
+
+.Title {
+  font-size: 100px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px red;
+  margin-bottom: 2px;
+}
+.firstpage {
+  border-radius: 25px;
+  padding: 20px;
+  width: 75%;
+  height: 60vh;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("Image/youngme.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  display: flex;
+  border: 2px solid #fff;
+  box-shadow: 10px 10px rgb(0 0 0 / 0.2);
+}
+.navbar {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: black;
+  margin-top: 7%;
+  position: relative;
+  font-weight: bold;
+}
+.navii {
+  appearance: button;
+  background-image: linear-gradient(
+    to right,
+    rgb(74, 96, 143),
+    rgb(153, 178, 231)
+  );
+  border-radius: 6px;
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 3vw;
+  height: 12vh;
+  margin: 20px 0 0;
+  margin: 0 10px;
+  padding: 0 25px;
+  text-align: center;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  touch-action: manipulation;
+  width: 20vw;
+  margin-top: 10%;
+}
+a {
+  margin-left: 15px;
+}
+.tothetop {
+  position: fixed;
+  margin-left: 10px;
+  appearance: button;
+  backface-visibility: hidden;
+  background-image: linear-gradient(
+    to right,
+    rgb(74, 96, 143),
+    rgb(153, 178, 231)
+  );
+  border-radius: 6px;
+  border-width: 0;
+  border: 2px solid #fff;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 1vw;
+  height: 4%;
+  line-height: 1.15;
+  text-align: center;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 4%;
+}
+button {
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(25, 119, 119, 0.3) 0 0 0 4px;
+}
+
+.aboutme {
+  border-radius: 3%;
+  padding: 2%;
+  width: 55%;
+  height: 70vh;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+  line-height: 45px;
+  font-size: 35px;
+  background-image: url(Image/me.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  border: 2px solid #fff;
+  transition: transform 250ms;
+  font-weight: bold;
+  box-shadow: 10px 10px rgb(0 0 0 / 0.2);
+}
+.textaboutme{
+  margin-top: 20%;
+}
+
+.hide {
+  font-size: larger;
+}
+.skills {
+  border-color: white;
+  border-radius: 3%;
+  padding: 2%;
+  width: 55%;
+  border: 2px solid #fff;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  background-position: center;
+  text-align: center;
+  line-height: 50px;
+  font-size: 35px;
+  background-image: url(Image/mebar.jpg);
+  background-size: 1200px;
+  color: white;
+  transition: transform 250ms;
+  font-weight: bold;
+  box-shadow: 10px 10px rgb(0 0 0 / 0.2);
+}
+.experiences {
+  border-color: white;
+  border-radius: 3%;
+  padding: 2%;
+  width: 55%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  background-position-x: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 35px;
+  background-image: url(Image/work.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  transition: transform 250ms;
+  font-weight: bold;
+  border: 2px solid #fff;
+  box-shadow: 10px 10px rgb(0 0 0 / 0.2);
+}
+
+.goals {
+  border-color: white;
+  border-radius: 3%;
+  padding: 2%;
+  width: 55%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  background-position: center;
+  border: 2px solid #fff;
+  text-align: center;
+  line-height: 60px;
+  font-size: 35px;
+  background-image: url(Image/goals2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  transition: transform 250ms;
+  font-weight: bold;
+  box-shadow: 10px 10px rgb(0 0 0 / 0.2);
+}
+
+.contacts {
+  border-color: white;
+  border-radius: 3%;
+  padding: 2%;
+  width: 55%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-position: center;
+  text-align: center;
+  line-height: 45px;
+  font-size: 35px;
+  border: 2px solid #fff;
+  color: white;
+  background-color: rgb(153, 178, 231);
+  transition: transform 250ms;
+  font-weight: bold;
+  box-shadow: 10px 10px rgb(0 0 0 / 0.2);
+}
+.aboutme:hover,
+.skills:hover,
+.experiences:hover,
+.contacts:hover,
+.goals:hover,
+.navii:hover {
+  transform: translateY(-10px);
+}
+
+.hide {
+  display: none;
+}
+
+.show:hover > .hide {
+  display: block;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: linear-gradient(Orange, #feda77, #dd2a7b, #8134af, #515bd4);
+  color: white;
+}
+.hide {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 830px) {
+  .hide {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 718px) {
+  .contacts {
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 40px;
+  }
+  .textaboutme {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .textaboutme {
+    font-size: 27px;
+  }
+  .info {
+    font-size: 22px;
+  }
+  .experiences .show {
+    font-size: 50px;
+  }
+}
+
+.seperate {
+  display: block;
+  height: 10px; /*same height as header*/
+  margin-top: -10px; /*same height as header*/
+  visibility: hidden;
+}
